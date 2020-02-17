@@ -15,4 +15,9 @@ function getName()
     if (male.checked == false && female.checked ==false) {
         alert("identify your gender");
     }
-    else if (year ==
+    else if (year == ""|| year.length < 4 || year.length> 4){
+        alert("please enter a valid year");
+    }
+    else if (month <1 || month > 12 || month == 2 && day > 29 ){
+        alert("please enter valid month")
+        
