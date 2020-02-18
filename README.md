@@ -16,7 +16,7 @@ Clone this Repository onto your device then open the file and it will lead you t
 2. [JSFiddle](https://jsfiddle.net/) was used in testing the Javascript section.
 3. The Text editor was used in writing the ReadMe.
 
-## CONTACTS
+## CONTACTS.
 Phone Number : 0722279569
 Email : billomambia82@gmail.com
 
