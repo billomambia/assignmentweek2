@@ -21,7 +21,7 @@ Phone Number : 0722279569
 Email : billomambia82@gmail.com
 
 ## LICENSE
-    Copyright (C) 2020  BILL OMAMBIA
+    Copyright (C) 2020  BILL OMAMBIA.
 
     This program is free software: you can redistribute it and/or modi
     it under the terms of the GNU General Public License as published by
