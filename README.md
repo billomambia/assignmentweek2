@@ -1,7 +1,7 @@
 # assignmentweek2
 week 2# My Web Application
 #### 18 th February 2020.
-## By Bill omambia
+## By Bill omambia.
 The Author of this project is a student at Moringa School currently taking part in the Prep Program.
 
 ## DESCRIPTION
