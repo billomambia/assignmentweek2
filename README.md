@@ -11,7 +11,7 @@ Here is the [Live Site](https://billomambia.github.io/assignmentweek2/)
 ## Setup/Installation Requirements.
 Clone this Repository onto your device then open the file and it will lead you to the Web Aplication.
 
-## TECHNOLOGIES USED
+## TECHNOLOGIES USED.
 1. Visual studio code was used in coding the HTML, Bootstrap, css and Javascript.
 2. [JSFiddle](https://jsfiddle.net/) was used in testing the Javascript section.
 3. The Text editor was used in writing the ReadMe.
