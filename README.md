@@ -1,4 +1,4 @@
-# assignmentweek2
+# Assignmentweek2
 week 2# My Web Application
 #### 18 th February 2020.
 ## By Bill omambia.
