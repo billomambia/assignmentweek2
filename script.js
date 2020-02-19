@@ -1,22 +1,43 @@
-function getName() 
-    var year = parseInt(document.getElementById("YY").value);
-    var month = parseInt(document.getElementById("MM").value);
-    var day = parseInt(document.getElementById("DD").value);
-    var date = new date('${year})-${month-1}-${day}');
-    var date = new date(year, month-1, day)
-    var dob = date.getDay();
-    var male = document.getElementById("male")
-    var female = document.getElementById("female")
-    var Weekdays = ["Sunday", "Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday";
-    var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "kofi","Kwame"];
-    var femaleNames = ["Akosua","Adwoa", "Abenaa", "Akua" , "Yaa", "Afua", "Ama"];
+var akanMale = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "kofi","Kwame"];
+var akanFemale = ["Akosua","Adwoa", "Abenaa", "Akua" , "Yaa", "Afua", "Ama"];
+var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "wednesday", "Thursday", "Friday", "Saturday"];
+function result() {
+    var year = parseInt(document.getElementById("year").value);
+    var month = parseInt(document.getElementById("month").value);
+    var day = parseInt(document.getElementById("day").value);
+    var date = new Date(year + "/" + month + "/" + day);
+    var gender = print();
+    var day2=date.getDay();
+    var akan;
 
-    if (male.checked == false && female.checked ==false) {
-        alert("identify your gender");
+
+    if(day <1 || day >31){
+        alert("invalid date");
+        return false;
     }
-    else if (year == ""|| year.length < 4 || year.length> 4){
-        alert("please enter a valid year");
+    if (month <1 || month>12){
+        alert("Invalid month");
+        return false;
     }
-    else if (month <1 || month > 12 || month == 2 && day > 29 ){
-        alert("please enter valid month")
+    if(year <1900 || year >2020){
+            alert("invalid year");
+            return false;
+    }
+
+    if(gender === "male") {
+        akan =akanMale[day2];
+    }else{
+            akan =akanFemale[day2];
+    }
+            alert("You were born on " + dayOfTheWeek [day2] + "  and your akan name is " + akan);
+}
+function print(){
+    var gender=document.getElementsByName("gender");
+    for(i=0; i<gender.length; i++){
+        if(gender[i].checked){
+            return(gender[i].value)
+        }
+    }
+
+} 
 

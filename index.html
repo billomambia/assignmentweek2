@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css" />
-  <script src="js/script.js"></script>
 
   <title>AKAN NAMES</title>
 </head>
@@ -26,34 +25,34 @@
       <div class="row">
         <div class="jumbotron bg-dark">
           <div class="about">
-            <h3><b>are you curious?</b></h3>
-            <h3>Fill this form inorder to know your Akan name</h3>
+            <h3><b>Are you curious?</b></h3>
+            <h3>Fill this form inorder to know your Akan name.</h3>
             <div class="container">
 
 
 
-            </div>
+  </div>
             <div class="container">
               <div class="row">
                 <form>
                   <div class="form-group">
                     <label>Year</label>
-                    <input type="number" class="year" id="YY" aria-describedby="input year">
+                    <input type="number" id="year" placeholder="YY" min="1920" max="2020" value="" required/>
                   </div>
                   <div class="form-group">
                     <label for="month">Month</label>
-                    <input type="text" class="form-control" id="MM">
+                    <input type="number" id="month" placeholder="MM" min="1" max="12" value="" required/>
                   </div>
                 <form>
                     <div class="form-group">
                       <label>Day</label>
-                      <input type="number" class="Day" id="DD">
+                      <input type="number" id="day" placeholder="DD" min="1" max="31" value="" required/>
                     </div>
                   <input type="radio" name="gender" id="gender" value="male" checked>Male
 
                   <input type="radio" name="gender" id="gender" value="female" checked>female
   
-                  <input type="submit" name="submit" class="btn btn-primary btn-lg" onclick="results()"> 
+                  <button type="submit" value="submit" onclick="results()">Submit</button>
                     <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Check me out</label>
@@ -83,3 +82,5 @@
 </body>
 
 </html>
+
+<script src="script.js"></script>
